@@ -1,0 +1,201 @@
+body {
+	font-size: 16px;
+	margin-bottom: 0;
+	background-color: #F6F7EB;
+}
+
+h1 {
+	font-size: 38px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+.hero {
+	height: 100vh;
+	background-image: url('../img/nyc1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #F6F7EB;
+}
+
+.navbar {
+	background-color: transparent;
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: none;
+}
+
+.navbar-brand, .navbar-nav a {
+	color: #F6F7EB !important;
+	text-transform: uppercase;
+}
+
+.jumbotron {
+	padding-top: 128px;
+	background-color: transparent;
+	height: 86%;
+}
+
+.jt-text {
+	display: inline-block;
+}
+
+#lm-btn {
+	color: #E94F37;
+	background: linear-gradient(to left, transparent 50%, #E94F37 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	border-width: 3px;
+	border-color: #E94F37;
+	text-transform: uppercase;
+	transition: all 0.7s ease-in;
+}
+
+#lm-btn:hover {
+	color: #F6F7EB;
+	background-position: left bottom;
+}
+
+.features-con {
+	padding-top: 48px;
+	padding-bottom: 96px;
+}
+
+.feature-icon {
+	display: inline-block;
+	font-size: 60px;
+	color: #E94F37;
+	vertical-align: top;
+	padding-top: 6px;
+	margin-right: 12px;
+}
+
+.feature-text {
+	display: inline-block;
+	width: 75%;
+}
+
+.gray {
+	background: rgb(38, 47, 54);
+	color: white;
+	padding-top: 48px;
+	padding-bottom: 96px;
+}
+
+.h-tag {
+	display: block;
+	color: #E94F37;
+}
+
+.gray-img {
+	height: 400px;
+	padding-right: 0;
+	padding-left: 0;
+	background-image: url('../img/portrait.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.portfolio {
+	padding-top: 48px;
+	padding-bottom: 96px;
+}
+ 
+.portfolio .row {
+	margin-top: 48px;
+}
+
+.portfolio img {
+	width: 100%;
+}
+
+.web-dev {
+	margin-top: 96px;
+}
+
+.web-dev .btn {
+	color: #E94F37;
+	background: linear-gradient(to left, transparent 50%, #E94F37 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	border-width: 3px;
+	border-color: #E94F37;
+	text-transform: uppercase;
+	transition: all 0.7s ease-in
+}
+
+.web-dev .btn:hover {
+	background-position: left bottom;
+	color: #F6F7EB;
+}
+
+.sm-icons {
+	height: 120px;
+	width: 100%;
+	font-size: 8rem;
+	text-align: center;
+	color: #E94F37;
+}
+
+.sm-icons:hover, .sm-icons:active, .sm-icons:focus {
+	text-decoration: none;
+	outline: none;
+	color: #E94F37;
+}
+
+.contact {
+	padding-top: 48px;
+	padding-bottom: 96px;
+}
+
+#contact-name:focus, #contact-email:focus, #contact-message:focus {
+	border-color: #E94F37;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075),
+				0 0 8px rgba(233, 79, 55, 1.0);	
+}
+
+#contact-form button {
+	color: #E94F37;
+	background: linear-gradient(to left, transparent 50%, #E94F37 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	border-width: 3px;
+	border-color: #E94F37;
+	text-transform: uppercase;
+	transition: all 0.7s ease-in;
+}
+
+#contact-form button:hover {
+	background-position: left bottom;
+	color: #F6F7EB;
+}
+
+footer {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	background-color: #5C415D;
+	color: #F6F7EB;
+}
